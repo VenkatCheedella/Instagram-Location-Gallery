@@ -62,8 +62,8 @@ public class Instagrampics1UI extends UI {
 	private AmazonWebServices awsservices;
 	private VerticalLayout tab_locationPicsSrch;
 	private Button retrieveImagesFromDB;
-	private String aws_acccess_key = "AKIAIY7DMAZYF5KMJN7A";
-	private String aws_secret_key = "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";
+	private String aws_acccess_key = "****************";
+	private String aws_secret_key = "******************";
 
 	/**
 	 * 
@@ -178,7 +178,7 @@ public class Instagrampics1UI extends UI {
 					@Override
 					public void buttonClick(ClickEvent event) {
 						// TODO Auto-generated method stub					
-						if(aws_acccess_key.equals("AKIAIY7DMAZYF5KMJN7A") && aws_secret_key.equals("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"))			// Here you can find AWS access key and secret key, 
+						if(aws_acccess_key.equals("**********") && aws_secret_key.equals("*************"))			// Here you can find AWS access key and secret key, 
 						{																																// They are created after creating an account in AWS portal. https://aws.amazon.com/
 							uploadFileToS3(aws_acccess_key, aws_secret_key);
 						}
